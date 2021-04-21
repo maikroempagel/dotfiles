@@ -77,6 +77,4 @@ _G.s_tab_complete = function()
 end
 
 mk('s', '<Tab>', 'v:lua.tab_complete()', {expr = true})
-mk('i', '<Tab>', 'v:lua.tab_complete()', {expr = true})
 mk('s', '<S-Tab>', 'v:lua.s_tab_complete()', {expr = true})
-mk('i', '<S-Tab>', 'v:lua.s_tab_complete()', {expr = true})
