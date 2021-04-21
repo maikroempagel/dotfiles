@@ -13,6 +13,8 @@ opt('b', 'shiftwidth', indent)   -- size of an indent
 opt('b', 'smartindent', true)    -- insert indents automatically
 opt('b', 'tabstop', indent)      -- number of spaces for each tab
 opt('o', 'termguicolors', true)  -- true color support
+opt('o', 'splitright', true)     -- put new windows to the right
+opt('o', 'splitbelow', true)     -- put new windows to the bottom
 opt('w', 'number', true)         -- print line number
 
 -- highlight current line number
