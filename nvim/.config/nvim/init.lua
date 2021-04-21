@@ -42,7 +42,7 @@ require('neoformat')
 require('treesitter')
 
 -- Telescope
-require('telescope')
+require('telescope-settings')
 
 -- display leader key mappings
 require('leader-guide')
