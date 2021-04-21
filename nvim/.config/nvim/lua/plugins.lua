@@ -13,6 +13,7 @@ paq 'marko-cerovac/material.nvim'
 
 -- treesitter
 paq {'nvim-treesitter/nvim-treesitter', run = vim.fn[':TSUpdate']}
+paq 'nvim-treesitter/playground'
 
 -- LSP
 paq 'neovim/nvim-lspconfig' -- LSP support
