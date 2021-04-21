@@ -46,3 +46,6 @@ require('telescope-settings')
 
 -- display leader key mappings
 require('leader-guide')
+
+-- markdown preview
+require('markdown-preview')

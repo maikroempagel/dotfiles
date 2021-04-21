@@ -29,3 +29,6 @@ paq 'spinks/vim-leader-guide'
 
 -- code formatter
 paq 'sbdchd/neoformat'
+
+-- markdown previewer via browser
+paq {'iamcco/markdown-preview.nvim', run = vim.fn['mkdp#util#install()']}
