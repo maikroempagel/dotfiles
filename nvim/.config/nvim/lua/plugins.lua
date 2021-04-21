@@ -25,6 +25,8 @@ paq 'onsails/lspkind-nvim' -- add icons to suggestions
 paq 'nvim-lua/popup.nvim'
 paq 'nvim-lua/plenary.nvim'
 paq 'nvim-telescope/telescope.nvim'
+-- executed the run command manually in the plugin directory
+paq 'nvim-telescope/telescope-fzy-native.nvim' --, run = vim.fn['! git submodule update --init --recursive']}
 
 paq 'spinks/vim-leader-guide'
 
