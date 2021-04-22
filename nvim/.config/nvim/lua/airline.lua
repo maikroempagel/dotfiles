@@ -13,6 +13,9 @@ g.airline_powerline_fonts = 1
 g.airline_left_sep = ''
 g.airline_right_sep = ''
 
+g.webdevicons_enable_airline_tabline = 1
+g.webdevicons_enable_airline_statusline = 1
+
 -- set theme
 g.airline_theme = 'onedark'
 
