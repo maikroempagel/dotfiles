@@ -3,13 +3,9 @@ vim.cmd 'packadd paq-nvim'          -- load the package manager
 local paq = require('paq-nvim').paq -- a convenient alias
 paq {'savq/paq-nvim', opt = true}   -- paq-nvim manages itself
 
--- airline tabline
-paq 'vim-airline/vim-airline'
-paq 'vim-airline/vim-airline-themes'
-
--- color theme
-paq 'tjdevries/colorbuddy.nvim'
-paq 'marko-cerovac/material.nvim'
+-- ui / colors
+paq 'yunlingz/ci_dark'
+paq 'hoob3rt/lualine.nvim'
 
 -- treesitter
 paq {'nvim-treesitter/nvim-treesitter', run = vim.fn[':TSUpdate']}

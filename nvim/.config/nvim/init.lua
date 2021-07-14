@@ -23,11 +23,10 @@ require('mappings')
 require('filetypes')
 
 -- color scheme
-require('material-settings') -- load the settings first!
-require('colorbuddy').colorscheme('material')
+require('colorscheme')
 
--- airline config
-require('airline')
+-- lualine config
+require('lualine-config')
 
 -- LSP (intellisense, code analysis + actions)
 require('lsp')
