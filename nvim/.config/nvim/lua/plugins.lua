@@ -38,3 +38,6 @@ paq {'iamcco/markdown-preview.nvim', run = vim.fn['mkdp#util#install()']}
 -- icons
 paq 'kyazdani42/nvim-web-devicons'
 paq 'ryanoasis/vim-devicons' -- for plugin integration e.g. airline
+
+-- floating terminal
+paq 'voldikss/vim-floaterm'

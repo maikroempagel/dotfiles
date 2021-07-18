@@ -48,3 +48,6 @@ require('leader-guide')
 
 -- markdown preview
 require('markdown-preview')
+
+-- floating terminal
+require('floaterm')
